@@ -18,7 +18,7 @@ client:
   
 server:
   - install dependencies: (create new folder for project)
-    + npm init
+    + npm init (spam enter to next)
     + npm install --save @hapi/joi 
     + npm install --save bcryptjs
     + npm install --save cors
