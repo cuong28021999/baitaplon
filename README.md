@@ -16,7 +16,8 @@ client:
       + npm install --save js-cookie
   
 server:
-  - install dependencies:
+  - install dependencies: (create new folder for project)
+    + npm init
     + npm install --save @hapi/joi 
     + npm install --save bcryptjs
     + npm install --save cors
