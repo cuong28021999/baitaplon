@@ -15,18 +15,18 @@ client:
       + npm install --save jsonwebtoken
       + npm install --save js-cookie
   
-  server:
-    - install dependencies:
-      + npm install --save @hapi/joi 
-      + npm install --save bcryptjs
-      + npm install --save cors
-      + npm install --save dotenv
-      + npm install --save express
-      + npm install --save jsonwebtoken
-      + npm install --save mongoose
-      + npm install --save shortid
-      + npm install --save-dev nodemon
+server:
+  - install dependencies:
+    + npm install --save @hapi/joi 
+    + npm install --save bcryptjs
+    + npm install --save cors
+    + npm install --save dotenv
+    + npm install --save express
+    + npm install --save jsonwebtoken
+    + npm install --save mongoose
+    + npm install --save shortid
+    + npm install --save-dev nodemon
       
-    - create file .env in root folder of project, copy: 
+   - create file .env in root folder of project, copy: 
         MONGO_URL=mongodb://localhost/test-awesome
         TOKEN_SECRET=<any>
