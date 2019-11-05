@@ -29,4 +29,4 @@ server:
       
    - create file .env in root folder of project, copy: 
     <br>MONGO_URL=mongodb://localhost/test-awesome
-    TOKEN_SECRET=qweqweqwasczcas
+    <br>TOKEN_SECRET=qweqweqwasczcas
