@@ -15,6 +15,7 @@ client:
       + npm install --save jsonwebtoken
       + npm install --save js-cookie
   
+  
 server:
   - install dependencies: (create new folder for project)
     + npm init
@@ -27,6 +28,7 @@ server:
     + npm install --save mongoose
     + npm install --save shortid
     + npm install --save-dev nodemon
+  - after create project, config file package.json, add to "scripts" object: <b>"start": "nodemon index.js"</b>
       
    - create file .env in root folder of project, copy: 
     <br>MONGO_URL=mongodb://localhost/test-awesome
