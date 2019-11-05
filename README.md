@@ -28,5 +28,5 @@ server:
     + npm install --save-dev nodemon
       
    - create file .env in root folder of project, copy: 
-    MONGO_URL=mongodb://localhost/test-awesome
+    <br>MONGO_URL=mongodb://localhost/test-awesome
     TOKEN_SECRET=qweqweqwasczcas
